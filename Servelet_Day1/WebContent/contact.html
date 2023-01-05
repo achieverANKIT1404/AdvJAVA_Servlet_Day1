@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>achieverANKIT | Contact</title>
+<style>
+body{
+   background-image: url(About.png);
+   background_attachment: fixed;
+   background-size: 100%;
+}
+ ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   height: 45px;
+   background-color: #000;
+   font-size: 14px;
+   font-family: Arial;
+   line-height: 36px;
+   border-radius: 7px;
+ }
+ h1{
+     margin-left: 13px;
+      color:Orange;
+     padding: 0 30px;
+     margin-top: 5px;
+ }
+ li{
+    float: left;
+ }
+ a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top:3px;
+ }
+ a:hover,  .active a{
+    color: yellow;
+ }
+ .fname{
+     padding: 10px;
+      margin-top:18%;
+      margin-right: 25%;
+      text-align: center;
+      color : darkgreen;
+      font-weight: bold;
+ }
+ .eml{
+          padding: 8px;
+      margin-right: 25%;
+       text-align: center;
+          color : darkgreen;
+      font-weight: bold;
+ }
+ .sub{
+      margin-top: 15px;
+      margin-left: 9%;
+       text-align: center;
+          color : darkgreen;
+      font-weight: bold;
+ }
+ .msg{
+   margin-top: 13px;
+      margin-left: 10%;
+         color : darkgreen;
+      font-weight: bold;
+ }
+ 
+ .btn{
+     margin-top: 15px;
+     height: 25px;
+     widht: 60px;
+    background-color:blue;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 5px;
+    
+ }
+ .frm{
+ margin-top: 10px;
+   background-color: seashell;
+   height: 290px;
+   width: 33%;
+   margin-left: 300px;
+   border-radius:7px;
+ }
+ 
+ </style>
+</head>
+<body>
+       <nav>
+     
+        <ul>
+          <li><h1>achieverANKIT</h1></li>
+          <li><a href = "index.html">Home</a></li>
+          <li><a href = "about.html">About</a></li>
+          <li><a href = "work.html">Works</a></li>
+          <li class = "active"><a href = "contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <h1 style = "margin-left:33%; margin-top:30px; color: #fff;">Contact Us</h1>
+    
+    <form class = "frm">
+    <div class = "fname">
+       <label for="name">Your Name :</label>
+       <input type="text" class="form-control" id="name" name="fullname" placeholder="Enter Name">
+    </div>   
+     <div class = "eml">
+       <label for="email">Your Email :</label>
+       <input type="email" class="form-control" id="email" name="email"  placeholder="Enter Email">
+       <div>
+       <div class = "sub">
+        <label for="subject">Subject :</label>
+          <input type="text" class="form-control" id="subject" name="subj" placeholder="Enter Subject">    
+          
+        </div>  
+        <div class = "msg">
+          <label for="message">Message :</label>
+          <textarea class="form-control" placeholder="Leave a message here" name="msg" id="message" style="height: 80px"></textarea>    
+         </div>
+           <div>
+             <button class="btn" type="submit" name="send">Send Message</button>
+          </div>
+    </form>
+</body>
+</html>
