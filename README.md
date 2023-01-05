@@ -2,7 +2,7 @@
 This project is a tutorial on how to create a basic servlet application using the Java Servlet API. The project includes a series of basic exercises that demonstrate how to use the API to create a simple web application. <br>
 The exercises cover topics such as creating a servlet, handling requests and responses, forwarding requests, and using annotations. The project also includes a tutorial on using Tomcat as the servlet container. This tutorial is aimed at beginners who are just starting out with Java servlet development.
 
-<h3>Note : All the pages can run on Servelet server.</h3>
+<h3>Note : All the pages can run on Tomcat server.</h3>
 <h2>OUTPUT ⬇️</h2>
 
 <h4>1) Below page is a Home Page of our web application, from which you can switch to another pages.</h4>
